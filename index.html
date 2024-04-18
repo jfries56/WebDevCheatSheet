@@ -7,14 +7,17 @@
         <title>Web Dev Cheat Sheet</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./styles.css" type="css" rel="stylesheet">
+        <link href="styles/styles.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Web Dev Cheatsheet</h1>
-        <h3>Table Tags</h3>
-        <table> <!--Table Title Row 1-->
-            <thead>
-                <tr>
+        <h1 style="text-align: center;">Web Dev Cheatsheet</h1>
+        <h3 class="tabletitle">Table Tags</h3>
+        <table class="table"> 
+            <thead class="tablehead">
+                <tr> <!--Table Title Row 1-->
                     <td>Tag</td>
                     <td>Name</td>
                     <td>Description</td>
@@ -53,6 +56,27 @@
                 </tr>
             </tbody>
         </table>
-        
+        <h3 class="tabletitle">Table Attributes</h3>
+        <table class="table">
+            <thead class="tablehead">
+                <tr> <!--Table Row 1-->
+                  <td>Attribute</td>
+                  <td>Name</td>
+                  <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!--Table Row 2-->
+                  <td>colspan</td>
+                  <td>Column Span</td>
+                  <td>Defines how many columns a td element should span</td>
+                </tr>
+                <tr> <!--Table Row 3-->
+                    <td>rowspan</td>
+                    <td>Row Span</td>
+                    <td>Defines how many rows a td element should span</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>

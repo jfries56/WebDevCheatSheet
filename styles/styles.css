@@ -1,0 +1,31 @@
+body {
+    background-color: oldlace;
+}
+
+h1,
+h3 {
+    font-family: "Reddit Mono", monospace;
+}
+
+.tabletitle {
+    text-align: center;
+    font-family: "Reddit Mono", monospace;
+    color: rebeccapurple;
+}
+
+.table {
+    margin: 0 auto;
+    font-family: "Reddit Mono", monospace;
+    border: 2px solid thistle;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tablehead {
+    background-color: violet;
+    color: rebeccapurple;
+}
+
+td {
+    border-bottom: 1px solid rebeccapurple;
+}
